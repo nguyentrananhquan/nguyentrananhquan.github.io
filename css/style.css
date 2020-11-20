@@ -1,0 +1,455 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap');
+/* CSS Document */
+*{
+	margin: 10px;
+	margin-left: 3px; 
+	margin-top: 3px;
+}
+.clear{
+	clear: both;
+}
+body{
+	background: url("../img/Over.png") no-repeat center top;
+}
+	
+.bg2{
+	background: url("../img/Bg2.png") no-repeat ;
+	width: 60%;
+	height: 100vh;
+	position: absolute;
+	top: 19px;
+	float: right;
+	right: 0;
+	
+}
+.bg{
+	width: 100%;
+	height: 138px;
+	margin-top: 50px;
+	margin-left: 0;
+	margin-bottom: 18px;
+	padding: 8px 135px 75px 104px;
+	box-shadow: -0.3px 5px 21px 0 rgba(0, 0, 0, 0.04);
+	background-color: none;
+	display: none;	
+}
+.smart-news{
+/*	background: url("../img/Smart News.png") no-repeat;*/
+	width: 20%;
+  height: 80px;
+	margin: 66px 0 0 104px;
+	float: left;
+	
+}
+.menubar{
+	width: 100%;
+		float: right;
+	padding: 48px 0 0 0;
+}
+.menu{
+	list-style-type: none;
+	float: left;
+	padding-right: 0px;
+	margin: 14px 57px 15px 10%;
+	width: 60%;
+}
+.menu li{
+	float: left;
+	padding-right: 25px;
+	
+}
+.menu li a{
+	text-decoration: none;
+	color: #222222;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 0.63px;
+	font-size: 18px;
+	
+	
+}
+.searchbox input[type="search"] 
+{
+    
+	padding: none;
+}
+.searchbox{
+	float: left;
+	width: 30%;
+	position: absolute;
+	padding-left: 73%
+}
+.search{
+	border-radius: 50px;
+	border: solid 1px #9b9b9b;
+	height: 46px;
+
+	padding: 20px 30px 20px 20px;
+	outline: 0px solid transparent;
+}
+.searchbutton{
+	position: relative;
+	top: -54px;
+	left: 165px;
+  background-color: inherit;
+  border-radius: 50%;
+  border: solid 1px #9b9b9b;
+	border: none;
+  color: black;
+  width: 46px;
+  height: 46px;
+  outline: 0;
+	cursor: pointer;
+}
+.banner{
+	z-index: 99;
+	position: relative;
+	 width: 44%;
+	padding-left: 10%;
+		float: left;
+}
+.banner img{
+	width: 100%;
+}
+.info{
+	float: left;
+	width: 50%;
+	display: block;
+	padding-left: 27%;
+	padding-top: 15%;
+	
+}
+.fairplay1{
+	font-family: 'Playfair Display', serif;	
+  line-height: 2;
+  letter-spacing: 0.84px;
+  text-align: left;
+  color: #734df2;
+	
+}
+.fairplay2{
+	font-family: 'Playfair Display', serif;	
+	
+}
+.ralewaymedi{
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.84px; color: #ababba; line-height: 2; font-weight: 500;
+
+}
+.info h1{
+	font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #333333;
+}
+.bg3{
+	background-color: #FFFFFF;
+	width: 100%;
+  height: 1465px;
+	margin-left: 20px;
+	margin-right: 20px;
+	z-index: 10;
+	box-shadow: 0px 0px 20px #EDEDED;
+}
+.component{
+	padding-left: 10%;
+	padding-top: 10%;
+	padding-right: 10%;
+}
+.smallbg1{
+	width: 372px;
+  height: 494px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 15px #EDEDED;
+	position: absolute;
+	
+}
+.bg3 h1{
+	padding-top: 95px;
+position: relative;
+	z-index: 1;
+	
+	font-size: 38px;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	color: #222222;
+	font-family: 'Playfair Display', serif;	
+}
+.smallbg2 img{
+	height: 100%;
+}
+.smallbg2{
+	height: 494px;
+	width: 747px;
+	margin-left: 402px;
+	float: left;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 15px #EDEDED;
+	position: absolute;
+}
+.cover{
+	height: 494px;
+	width: 350px;
+	background-color: white;
+	position: absolute;
+	margin: -498px 10px 20px 0px;
+	border-radius: 10px 0 0 10px;
+}
+.smallbg3{
+	width: 372px;
+  height: 494px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 15px #EDEDED;
+	position: absolute;
+	margin-top: 520px; 
+}
+.smallbg4{
+	width: 365px;
+  height: 494px;
+	border-radius: 10px;
+	background-color: #734df2;
+	box-shadow: 0px 0px 15px #EDEDED;
+	position: absolute;
+	margin-top: 520px; 
+	margin-left: 395px;
+}
+.smallbg4 img{
+padding: 70px;
+	padding-top: 120px;
+}
+.smallbg5{
+	width: 372px;
+  height: 494px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 15px #EDEDED;
+	position: absolute;
+	margin-top: 520px; 
+	margin-left: 780px;
+}
+
+.smallbg1:hover, .smallbg2:hover, .smallbg3:hover, .smallbg4:hover, .smallbg5:hover{
+	box-shadow: 0px 0px 20px 1px  gray;}
+.hr{
+	width: 74px;
+	margin-top: 30px;
+	size: 3px;
+	height: 3px;
+	background: #734df2;
+		border: none;
+	box-shadow: 0 0 20px 5px #EDEDED;
+}
+.smallbg1 img, .smallbg2 img, .smallbg3 img, .smallbg4 img, .smallbg5 img{
+	margin: 0;
+}
+#testimonials .title{
+	padding-top: 95px;
+position: relative;
+	z-index: 1;
+	
+	font-size: 38px;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	color: #222222;
+	font-family: 'Playfair Display', serif;	
+}
+.component2{
+	width: 100%;
+	height: auto;
+	padding-left:  11.1%;
+	margin-top: 68px;
+}
+.person1{
+	width: 368px;
+	height: 337px;
+	background-color: white;
+	border-radius: 10px 0 10px 0;
+	box-shadow: 0px 0px 15px #EDEDED;
+	position: absolute;
+}
+.person2{
+	width: 368px;
+	height: 337px;
+	background-color: white;
+	border-radius: 10px 0 10px 0;
+	box-shadow: 0px 0px 15px #EDEDED;
+margin-left: 400px;
+position: absolute;}
+
+.person3{
+	width: 368px;
+	height: 337px;
+	background-color: white;
+	border-radius: 10px 0 10px 0;
+	box-shadow: 0px 0px 15px #EDEDED;
+margin-left: 800px;
+position: relative;}
+.person1:hover, .person2:hover, .person3:hover{
+	box-shadow: 0px 0px 20px 1px  gray;
+}
+.person1 img{
+	padding-left: 30%;
+		padding-top: 45px;
+}
+.person2 img{
+	padding-left: 30%;
+		padding-top: 45px;
+}
+.person3 img{
+	padding-left: 30%;
+		padding-top: 45px;
+}
+.component2 h2{
+	
+}
+.content {
+  	position: absolute;
+	text-align: left;
+	top: 300px;
+	width: 80%;
+	left: 11.5%;
+}
+.content h4 {
+	line-height: 1.62;
+  	letter-spacing: 1px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #222222;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.content p {
+	font-family: 'Playfair Display', serif;
+	font-size: 13px;
+	color: #777777;
+	padding-top: 10px;
+}
+.btn {
+	border-radius: 25px;
+	font-size: 11px;
+	color: #746bfc;
+	font-weight: 600;
+	padding: 9px 13px 8px;
+ 	background-color: #f1f0fe;
+	outline: 0;
+	cursor: pointer;	
+  	border: 0;
+}
+.smallbg2 .content{
+
+	top: 70px
+}
+.smallbg2 .content p{
+	line-height: 2;
+}
+.hr2{
+	width: 74px;
+	margin-top: 30px;
+	size: 3px;
+	height: 3px;
+	background:#A6A6A6;
+		border: none;
+	box-shadow: 0 0 20px 5px #EDEDED;}
+.component2 p{
+	line-height: 1.5;
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	padding: 0 25px
+}
+.component h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.56px;
+  color: #222222;
+}
+.component2 center{
+	position: absolute;
+	top: 170px
+}
+.logo{
+
+	width: 70%;
+	height: 111px;
+	position: relative;
+	padding-top: 70px;
+	padding-left: 150px;
+	padding-bottom: 100px;
+	padding-right: 170px;
+	
+}
+.logo img{
+	padding-left: 75px
+}
+.purple{
+	padding: 5% 20% 7% 20%;
+	background-color: #734df2;
+
+	position: relative;
+	
+}
+#footer .menubar .searchbutton{
+	top: 3px;
+	left: -55px;
+}
+#footer .searchbox{
+	left: -170px;
+}
+#footer .menu{
+	position: relative;
+	left: 200px;
+}
+.purple h3{
+	font-family: 'Playfair Display', serif;
+	color: white;
+	font-size: 23px;
+	float: left;
+	/*margin-left: 20%;*/}
+.purple .searchbar {
+	width: 50%;
+	float: right;
+
+	/*margin-right: 20%;*/
+}
+.searchbar input {
+	width: 230px;
+	height: 40px;
+	outline: none;
+  	font-size: 11.5px;
+  	border: 0;
+	font-family: 'Playfair Display', serif;
+	padding-left: 5%;
+  	background-color: #ffffff;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.purple .searchbar button {
+	width: 100px;
+	height: 42px;
+	padding: 1% 1.5%;
+	outline: none;
+	font-size: 11px;
+	background-color: #FF2629;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	position: relative;
+	left: -13px;
+	color: white;
+	font-family: 'Playfair Display', serif;
+}
+.copyright{
+	font-family: 'Raleway', sans-serif;
+	color: #8A8A8A;
+	margin-top: 100px;
+	
+	
+}
